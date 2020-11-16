@@ -3,7 +3,7 @@ import LoginComponent from './Login/login';
 import SignupComponent from './Signup/signup';
 import DashboardComponent from './Dashboard/dashboard';
 const firebase = require("firebase");
-require("firebase/firestore"); // Required for side-effects
+require("firebase/firestore");
 
 class AppContainer extends React.Component {
 
@@ -14,13 +14,13 @@ class AppContainer extends React.Component {
   // constructor() {
   //   super();
   //   firebase.initializeApp({
-  //     apiKey: "AIzaSyAlWBvbvLv7dT6_RYnlCeZbOcotpeBU3Y8",
-  //     authDomain: "im-app-tutorial.firebaseapp.com",
-  //     databaseURL: "https://im-app-tutorial.firebaseio.com",
-  //     projectId: "im-app-tutorial",
-  //     storageBucket: "im-app-tutorial.appspot.com",
-  //     messagingSenderId: "199544684635",
-  //     appId: "1:199544684635:web:fb388e2c181f0476"
+  //      apiKey: "AIzaSyCzDJIZZ7CKYlmLBaWDM-GfrKwj3ryozNk",
+//        authDomain: "im-tutorial-99d52.firebaseapp.com",
+//        databaseURL: "https://im-tutorial-99d52.firebaseio.com",
+//        projectId: "im-tutorial-99d52",
+//        storageBucket: "im-tutorial-99d52.appspot.com",
+//        messagingSenderId: "766303193584",
+//        appId: "1:766303193584:web:cbefbcf50ca5579ad23535"
   //   });
   //   this.db = firebase.firestore();
   //   this.state = {
